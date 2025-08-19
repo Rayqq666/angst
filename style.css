@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
+
 :root{
     --branco: white;
     --cor-de-fundo: #00162E;
@@ -118,6 +121,9 @@ body{
         flex-direction: row;
     }
     .parametro-senha__botao{
+        label{
+    font-size: 20px;
+}
     background-color: var(--fundo-texto);
     color: var(--branco);
 }
@@ -138,6 +144,13 @@ body{
     padding: 24px;
     font-size: 24px;
 }
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
 .parametro-senha__botao{
     background-color: var(--fundo-texto);
     color: var(--branco);
@@ -147,3 +160,5 @@ body{
     cursor: pointer;
 }
 }
+
+
